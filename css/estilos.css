@@ -2,12 +2,26 @@ header
 {
     background: rgb(92, 224, 147)
 }
+
 body 
 {
     background: rgb(140, 219, 230);
+    font-family: 'Source Sans Pro', sans-serif;
 
 }
-footer
-{
-    background: rgb( rgba(231, 190, 56, 0.829)
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
+}
+
+h1{
+    font-size: 40px;
+    line-height: 1.5em;
+    letter-spacing: -.2px;
 }
