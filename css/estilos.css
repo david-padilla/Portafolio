@@ -8,7 +8,8 @@ celeste #026fff*/
     color:white;
     display: flex;
     justify-content: space-between;
-    height: 90px;
+    align-items: center;
+    height: 70px;
 
 }
 
@@ -47,9 +48,17 @@ figure {
     background-size: 500px 300px;
     background-repeat: no-repeat;
     background-position-x: right;
+    display: flex;
+    align-items: center;
 }
-body 
-{
+h1{
+    font-size: 40px;
+    line-height: 1.5;
+    letter-spacing: -.2px;
+    color: white;
+    margin: 0;
+}
+body {
     background: rgb(140, 219, 230);
     font-family: 'Source Sans Pro', sans-serif;
     margin: 0;
@@ -66,12 +75,6 @@ h6{
     font-weight: normal;
 }
 
-h1{
-    font-size: 40px;
-    line-height: 1.5;
-    letter-spacing: -.2px;
-    color: white;
-}
 h1 strong {
     color: #026fff;
 }
@@ -94,4 +97,19 @@ h1 strong {
 .project-imageContainer{
     width: 500px;
 
+}
+.footer{
+    background: #1b2127;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.footer img {
+    vertical-align: middle;
+}
+
+.footer a {
+    color: white;
 }
