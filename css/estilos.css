@@ -5,6 +5,7 @@ celeste #026fff*/
 
 .header {
     background-color: #1b2127;
+    border: 2px solid black ;
     color:white;
     display: flex;
     justify-content: space-between;
@@ -12,7 +13,20 @@ celeste #026fff*/
     height: 70px;
 
 }
+.work {
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    height: 70px;
+    padding-right: 10px;
 
+}
+#menu-work {
+    border: 1px  solid white; 
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 5px;
+}
 ol,
 ul {
     margin: 0;
@@ -89,7 +103,8 @@ h2 {
 }
 .portfolio{
     background: #fafafa;
-    padding: 20px;
+    padding-right: 5px;
+    padding-left: 5px;
 }
 .project-details{
     width: 500px;
