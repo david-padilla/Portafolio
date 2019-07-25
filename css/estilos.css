@@ -163,7 +163,7 @@ h2 {
 }
 .event-list{
     display: flex;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
 }
 
 .event {
